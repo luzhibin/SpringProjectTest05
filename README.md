@@ -3,7 +3,14 @@
 ### Spring测试工程5：Spring-AOP(面向切面编程)  
 * **1.** 了解Spring-AOP内部原理：JDK动态代理和Cglib动态代理   
 * **2.** 了解AOP的相关术语  
-  * 1.655
+  * (1)Joinpoint:连接点  
+  * (2)Pointcut:切入点  
+  * (3)Advice：通知  
+  * (4)Introduction:引介  
+  * (5)Target:被增加的对象  
+  * (6)Weaving:织入  
+  * (7)Proxy:代理对象  
+  * (8)Aspect:切面  
 * **3.** Spring中AOP的基本使用  
   * 1.引入spring基本jar包
   * 2.引入aop开发的相关jar包
