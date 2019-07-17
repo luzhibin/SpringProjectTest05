@@ -7,16 +7,16 @@
   * 1.引入spring基本jar包
   * 2.引入aop开发的相关jar包
   * 3.配置文件中引入aop约束  
-  * `		<?xml version="1.0" encoding="UTF-8"?>
-		<beans xmlns="http://www.springframework.org/schema/beans"
-		       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		       xmlns:aop="http://www.springframework.org/schema/aop"
-		       xsi:schemaLocation="http://www.springframework.org/schema/beans
-		        http://www.springframework.org/schema/beans/spring-beans.xsd
-		        http://www.springframework.org/schema/aop
-		        http://www.springframework.org/schema/aop/spring-aop.xsd">	
-		</beans>`
-4.Spring测试
+  	* `		<?xml version="1.0" encoding="UTF-8"?>  
+		<beans xmlns="http://www.springframework.org/schema/beans"  
+		       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+		       xmlns:aop="http://www.springframework.org/schema/aop"  
+		       xsi:schemaLocation="http://www.springframework.org/schema/beans  
+		        http://www.springframework.org/schema/beans/spring-beans.xsd  
+		        http://www.springframework.org/schema/aop  
+		        http://www.springframework.org/schema/aop/spring-aop.xsd">  
+		</beans> `
+  * 4.Spring测试
 	测试时，每次都需要获取工厂
 	通过spring-test，就不用每次获取
 	添加测试依赖包
